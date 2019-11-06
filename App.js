@@ -27,7 +27,7 @@ class App extends React.Component {
     return new Promise(resolve =>
       setTimeout(() => {
         resolve('result');
-      }, 3000),
+      }, 3500),
     );
   };
 
@@ -68,13 +68,6 @@ class App extends React.Component {
             <Spinner color={'#607D8B'} />
           </View>
 
-          <View style={{flex: 1, justifyContent: 'flex-end'}}>
-            <View style={{flexDirection: 'row', justifyContent: 'center'}}>
-              <Text style={{fontWeight: 'bold', color: '#607D8B'}}>
-                &copy;NMP 2019
-              </Text>
-            </View>
-          </View>
         </React.Fragment>
       );
     }
