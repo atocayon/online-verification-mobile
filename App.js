@@ -63,7 +63,7 @@ class App extends React.Component {
             style={{
               flexDirection: 'row',
               justifyContent: 'center',
-              marginTop: hp('20%'),
+              marginTop: hp('30%'),
             }}>
             <Spinner color={'#607D8B'} />
           </View>
@@ -73,7 +73,11 @@ class App extends React.Component {
     }
     return (
       <React.Fragment>
-        <WebView source={{uri: 'http://lol.zenithwebs.com/'}} />
+        <WebView
+                source={{uri: 'http://verify.nmp.gov.ph/'}}
+                allowFileAccess={true}
+                scalesPageToFit={true}
+                />
       </React.Fragment>
     );
   }

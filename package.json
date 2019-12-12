@@ -1,6 +1,6 @@
 {
   "name": "NMP_EVerification",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "android": "adb reverse tcp:8081 tcp:8081 && adb reverse tcp:9090 tcp:9090 && react-native run-android",
